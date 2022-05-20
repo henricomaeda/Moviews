@@ -9,6 +9,6 @@
 	// Adiciona o local do recurso solicitado ao URL.
 	$url.= $_SERVER['REQUEST_URI'];
 	
-	// Redireciona o usuário ao index.php do pt_BR..
+	// Redireciona o usuário ao index.php do pt_BR.
 	header("Location: $url/pt_BR");
 ?>
