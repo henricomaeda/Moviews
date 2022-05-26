@@ -24,7 +24,7 @@ create table `moviews`.`users` (
 /* Criação da tabela categorias */
 create table `moviews`.`categories` (
 	`cat_id` int unsigned not null auto_increment,
-	`cat_genre` varchar(100) not null,
+	`cat_genre` varchar(20) not null,
 	primary key (`cat_id`)
 ) engine = InnoDB;
 
