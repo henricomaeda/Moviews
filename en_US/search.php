@@ -26,7 +26,7 @@
 		<!-- Comenta que não há filmes para essa busca -->
 		<?php if (count($movies) === 0): ?>
 			<p class="empty-list" id="empty-search">
-				There are no movies for what you're looking for, <a href="<?= $BASE_URL ?>" class="back-link"> press here to return</a>. . .
+				There are no movies for what you're looking for, <a href="<?= $BASE_URL ?>" class="back-link"> press here to return</a> ...
 			</p>
 		<?php endif; ?>
 	</div>

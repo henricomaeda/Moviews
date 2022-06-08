@@ -65,7 +65,7 @@
 				<label for="trailer">
 					Descrição:
 				</label>
-				<textarea name="description" id="description" rows="5" class="form-control" placeholder="Descreva o filme. . ."></textarea>
+				<textarea name="description" id="description" rows="5" class="form-control" placeholder="Descreva o filme ..."></textarea>
 			</div>
 			<input type="submit" class="btn card-btn" value="Adicionar filme">
 		</form>

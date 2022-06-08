@@ -47,7 +47,7 @@
 					</p>
 				<?php else: ?>
 					<p class="profile-description">
-						O usuário ainda não escreveu nada em sua biografia. . .
+						O usuário ainda não escreveu nada em sua biografia ...
 					</p>
 				<?php endif; ?>
 			</div>
@@ -61,7 +61,7 @@
 					<!-- Verifica se o usuário enviou filmes -->
 					<?php if (count($userMovies) === 0): ?>
 						<p class="empty-list">
-							O usuário ainda não enviou nenhum filme. . .
+							O usuário ainda não enviou nenhum filme ...
 						</p>
 					<?php endif; ?>
 				</div>

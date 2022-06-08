@@ -124,7 +124,7 @@
 			<!-- Verifica há comentários e avaliações -->
 			<?php if (count($movieReviews) == 0): ?>
 				<p class="empty-list">
-					Não há comentários para este filme ainda. . .
+					Não há comentários para este filme ainda ...
 				</p>
 			<?php endif; ?>
 		</div>

@@ -91,7 +91,7 @@
 						<label for="description">
 							Description:
 						</label>
-						<textarea name="description" id="description" rows="5" class="form-control" placeholder="Describe the movie. . ."><?= $movie -> description ?></textarea>
+						<textarea name="description" id="description" rows="5" class="form-control" placeholder="Describe the movie ..."><?= $movie -> description ?></textarea>
 					</div>
 					<input type="submit" class="btn card-btn profile" value="Edit movie">
 				</form>

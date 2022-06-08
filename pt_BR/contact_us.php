@@ -43,7 +43,7 @@
 					<input type="hidden" name="$ ">
 					<div class="form-group">
 						<label for="message"> Mensagem: </label>
-						<textarea class="form-control message" id="message" name="$mensagem" rows="6" cols="33" placeholder="Digite sua mensagem. . ."></textarea>
+						<textarea class="form-control message" id="message" name="$mensagem" rows="6" cols="33" placeholder="Digite sua mensagem ..."></textarea>
 					</div>
 					
 					<!-- O tipo de mensagem -->

@@ -59,7 +59,7 @@
 							<label for="bio">
 								Sobre você:
 							</label>
-							<textarea class="form-control" name="bio" id="bio" rows="4" placeholder="Comente um pouco sobre você . . ."><?= $userData -> bio ?></textarea>
+							<textarea class="form-control" name="bio" id="bio" rows="4" placeholder="Comente um pouco sobre você  ..."><?= $userData -> bio ?></textarea>
 						</div>
 						<!-- Exibe a imagem do usuário -->
 						<input type="submit" class="btn card-btn profile" value="Alterar dados">

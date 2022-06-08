@@ -1,3 +1,7 @@
+/* Criação, caso não exista, do usuário administrador */
+create user if not exists 'administrador'@'localhost' identified by '000000';
+grant all privileges on *.* to 'administrador'@'localhost';
+
 /* Criação, caso não exista, e uso do banco de dados */
 create database if not exists `moviews`;
 use `moviews`;

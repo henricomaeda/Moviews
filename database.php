@@ -2,8 +2,8 @@
 	// A conexão desfragmentada em variáveis.
 	$db_name = "moviews";
 	$db_host = "localhost";
-	$db_user = "root";
-	$db_pass = "";
+	$db_user = "administrador";
+	$db_pass = "000000";
 	
 	// A conexão fragmentada em uma váriavel.
 	$conn = new PDO("mysql:dbname=" . $db_name . ";host=" . $db_host, $db_user, $db_pass);

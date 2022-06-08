@@ -68,7 +68,7 @@
 		<!-- Verifica se o usuário adicionou algum filme -->
 		<?php if (count($userMovies) == 0): ?>
 			<p class="empty-list">
-				You haven't added any movies yet. . .
+				You haven't added any movies yet ...
 			</p>
 		<?php endif; ?>
 	</div>

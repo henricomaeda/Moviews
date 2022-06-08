@@ -91,7 +91,7 @@
 						<label for="description">
 							Descrição:
 						</label>
-						<textarea name="description" id="description" rows="5" class="form-control" placeholder="Descreva o filme. . ."><?= $movie -> description ?></textarea>
+						<textarea name="description" id="description" rows="5" class="form-control" placeholder="Descreva o filme ..."><?= $movie -> description ?></textarea>
 					</div>
 					<input type="submit" class="btn card-btn" value="Editar filme">
 				</form>
