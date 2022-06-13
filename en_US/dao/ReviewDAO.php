@@ -113,6 +113,7 @@
 			} else  $rating = "Not rated";
 			
 			// Retorna a média das avaliações.
-			return $rating;
+			return round($rating,2);
+		
 		}
 	}
