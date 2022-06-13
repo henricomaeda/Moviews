@@ -77,7 +77,7 @@
 		public function getMoviesByCategory($category) {
 			$movies = [];
 			
-			$stmt = $this -> conn -> prepare("select * from movies where cat_id = :cat_id order by mov_id desc");
+			$stmt = $this -> conn -> prepare("select * from movies where cat_id = :cat_id order by mov_id desc limit 5");
 			
 			$stmt -> bindParam(":cat_id", $category);
 			$stmt -> execute();
