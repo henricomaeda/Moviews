@@ -109,10 +109,10 @@
 				}
 				
 				// Divide a soma de todas as avaliações pela sua quantidade.
-				$rating = $rating / count($reviews);
-			} else  $rating = "Não avaliado";
+				$rating = round($rating / count($reviews), 2);
+			} else $rating = "Not rated";
 			
 			// Retorna a média das avaliações.
-			return round($rating,2);
+			return $rating;
 		}
 	}
